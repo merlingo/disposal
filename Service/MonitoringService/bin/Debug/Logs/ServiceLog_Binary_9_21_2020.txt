@@ -1,0 +1,103 @@
+Task on thread 7 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(20000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+Task on thread 8 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(20000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+Task on thread 7 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(20000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event" -o "Binary" -l 5
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event" -o "Binary" -l 5
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event" -o "Binary" -l 5
+D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+1280
+driver:C:\
+
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\unix\lib\netstandard1.3\System.Text.Encoding.CodePages.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win\lib\netstandard1.3\System.IO.Pipes.AccessControl.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win\native\Microsoft.DiaSymReader.Native.amd64.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win\native\Microsoft.DiaSymReader.Native.arm.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+driver:D:\
+
+driver:E:\
+
+Number of file found : 0
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Binary değerleri için veri dosyası oluşturuldu
+continue (sending data) sensor in task - Binary
+sensor collect time bitti.(20000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event" -o "Binary" -l 5
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event" -o "Binary" -l 5
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event" -o "Binary" -l 5
+D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+1285
+driver:C:\
+
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win\native\Microsoft.DiaSymReader.Native.x86.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win-x86\native\Microsoft.DiaSymReader.Native.x86.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\runtimes\win8-arm\native\Microsoft.DiaSymReader.Native.arm.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+C:\Program Files\dotnet\sdk\2.1.202\Roslyn\bincore\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\binary_event
+driver:D:\
+
+driver:E:\
+
+Number of file found : 0
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Binary değerleri için veri dosyası oluşturuldu

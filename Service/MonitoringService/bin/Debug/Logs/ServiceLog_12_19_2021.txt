@@ -1,0 +1,8 @@
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 12/19/2021 12:40:32 PM

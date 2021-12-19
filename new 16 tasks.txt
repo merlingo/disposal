@@ -1,0 +1,122 @@
+Tasklar:
+- Python kodundaki fonksiyonların yazılması ve testi + -> url,operation,parameter inputlarını alarak işlem yapan kod yazıldı. Bu 3 değer sensör tarafından verilir.
+- url ve linklerin python'a input olarak verilerek sensor tarafından çalıştırılması 
+-yeni bir modül gereklidir. +
+	Varolan modül sensor bazlı çalışmaktadır. Verileri tane tane zaman bazlı devamlı almaktadır. Yeni ihtiyaç olan modülün görevi bütün verinin repo'ya eklenmesidir.: elaboratorx
+	-(saklama) abstract model: data - büyük veri içindeki en küçük birim parçasını temsilen veri modeli olur. Farklı modeller için işlenmemiş ham veri burada saklanabilmelidir. eklenecek veri türü için dataType adında model olur. +
+	bu model eklenen yeni veri türü için gerekli yapı,attribute değerlerini tutar (şuanki yapıya benzer) +
+	- (tespit) liste içindeki objeler veridir. verinin attribute değerleri çıkarılır. içinde yine liste içinde obje varsa o da veri olarak tespit edilir. +
+	- (parse) objenin attribute'ları listelenir. "veri" modeli şunlardan oluşur: name, attrlist,rawdata,parent. veri parent yoksa name'i root'dur. parent'ı var ise name'i o root'un ilgili attribute'udur. +
+	- (kayıt) oluşturulan veri direk veritabanına koyulur. ilgili veri isminde attrlist eklenmemişse oraya da attrlist değerleri eklenir. +
+	- (kullanım) veri için rawdata değeri attrlist'deki attribute'lar kullanılarak anlamlandırılır ve kullanıma sunulur. +
+
+- eventbus,sensor,agent modüllerinin servisten ayrı olarak kütüphane olarak çalıştırılması +
+	-Koda Yeni bir main sınıfı eklenmesi +
+	-Asıl main servis yükleyenden program çalıştırana değiştirilmesi +
+	
+
+- kütüphanenin servis içinde çalıştırılması +
+
+- ReadConfig'e getExtractor ve getFilters eklenmesi +
+- Constructor için değerlerin belirlenmesi +
+- FileDetector yazılması +-
+- FileParser yazılması 
+- Test file'ı oluştur 
+- FileDetector,FileParser,FileParser sınıflarını configden çalıştırmayı dene.
+- Repository kur 
+- Repo'ya verileri kayıt et - Bunu yapan ajana bağlan
+- Anlık olarak alınan son zaafiyet bilgisini repo'ya kayıt et
+
+- Repodan verileri ve attribute'ları çek
+- Anlamlandir
+- İlişkilendir
+- Tabloda göster
+- React Arayüzünü kur !
+	- Sayfa tasarımlarını oluştur
+	- Tablolar için partial yaz
+	- Sayfa düzenlemesini kur
+	- Request Response ayarlamalarını yap
+- Kullanicidan ürün isimlerini al
+- İlişkilendirdiğin zaafiyetleri iste
+- Response olarak aldığın zaafiyetleri göster
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Proje yapımı 
+1- repository'deki veri modelleri belirlenir 
+	- zaafiyet_tarama_sitesi, zaafiyetler, ürünler, müşteriler,
+2- ServerRepo/DataService/datamodel.js içine mongoose veri modelleri oluşturulur. 
+3- mongo veritabanı oluşturulur ve repo projesinde conn_str koyulur
+4- python matching.py kodları yazılır. -> process fonksiyonu kodlanır. çalıştırılacak cmd kodu config.xml dosyasına yazılır.
+NOT: WebServer get/post requestleri axios üstünden yapılacak şekilde düzenlenmelidir.
+5- Uygun react template tespit edilir.
+6- Template'e ait kodlar (css,	mainlayout, sayfalar, kullanılacak partialView'ler) frontend projesine import edilir (manual olarak ama nereye ne nasıl yapıldığı not edilmeli, bir yönerge çıkarılmalı)
+
+
+NOTLAR:
+1- 2- yapılı proje - ücretsiz olan tek sayfa girilen değer ile ilgili zaafiyetleri bulma lisanslı üründe kullanıcının tanımladığı versiyonları girilerek admin panel sağlanır: alarmlar, ayarlar, girilen zaafiyetler-ürünler
+
+cve, cve_id, ürün_ismi(vendor), zaafiyet_acklm, zaafiyet_tag, zaafiyet_çözümleri, isExploitable?, sonçıkan-versiyon, (soncikanversiyonda zeroday var mı?)
+
+Versiyon2:
+tez:
+ bu cve idler için yayınlanmış bir exploit(payload) var mı?
+ exploit edilebiliyor mu? dışardan otomatik olarak patlatmaya çalışılır 
+ port kontrolü 
+ 
+ 

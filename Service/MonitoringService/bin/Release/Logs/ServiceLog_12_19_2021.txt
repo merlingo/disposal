@@ -1,0 +1,154 @@
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 12/19/2021 2:06:20 PM
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 12/19/2021 2:17:45 PM
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 12/19/2021 2:20:21 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 12/19/2021 2:22:41 PM
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (500) Internal Server Error.
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Release\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 12/19/2021 2:35:00 PM

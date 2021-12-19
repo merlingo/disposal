@@ -1,0 +1,158 @@
+Kod Temizliği ve Açıklamalar
+- Temizleme sırasının belirlenmesi +
+
+Sıra: veri çıkarma (+), veri repo, web sunucu, web arayüz
+	
+	1. Monitoring Service (veri çıkarma modülü) 
+- MonitoringService.Agent
+	AbsCollector yapısında bir sınıftır
+	2 görevi vardır: eventleri sunucuya gndermek ve sensörün başlatılması için config dosyasının indirilmesi
+	update fonksiyonu ile Eventleri alıp sunucuya gönderir. gndermek için sendData fonksiyonunu kullanır. Bu fonksiyon POST http yapar.
+	ip ve port bilgileri ile config.xml dosyası okunarak construct edilir.
+	getConfig ile sunucudan config.xml dosyası indirilir ve servis klasörüne kayıt edilir.
+	saveConfigFile ve getConfig fonksiyonlarının doğru çalıştığı doğrulanmamıştır.
+	installSensor, logEvent, eventSıkıştır fonksiyonları eksiktir.
+	
+- MonitoringService.AttributeDataModel
+	Bir DataModel sınıfıdır.
+	Veritabanına kayıt ve oradan çekilmesi için kullanılan yardımcı bir sınıftır. Attribute veri modeli için kullanılır.
+	Veri kaynaklarından, API isteklerinden ve Crawler ile çıkarılan veriler, ilk olarak attribute'larının çıkarılma aşamasından geçirilir. Bu çıkarılan attribute'lar veritabanına kayıt edilir. Eğer veritabanında varsa bu aşama atlanmaktadır. Attribute listesi veritabanından çekilir.
+	Ham veriden ihtiyaç duyulan alanların çıkarılması için, attribute.header alanı kullanılır.
+	Attribute Amaç:   Veritabanına eklenecek herhangi bir veri için (event olarak gönderilen), eğer veri öntanımlı değilse veri ham olarak kayıt edilir. ham verinin işlenmesi içinde attributeları bu veri modeli içinde kayıtlı tutulur.
+		Bu projede öntanımlı olmayan veriler vulnerability altında tutulmaktadır. Bu veri modeli altında birden çok kaynaktan alınan veri vardır. Her kaynağın kendine has, farklı attribute'ları olabilmektedir. Bu değişkenliği bir arada tutabilmek için attribute veri modeli ve vulnerability.RawData field'ı kullanılmaktadır.
+	Attribute Sınıfı:
+		value,desc,header,type alanları bulunur.
+		
+- MonitoringService.EventBus
+	EventBus konektörü ve yardımcı sınıfları barındırır
+	Bu konektörün amacı veri sensörlerinden veri toplayıcılarına, veri gnderimini sağlamaktır. Event üretimi ve event gönderimi için gereken veri yapısıdır.
+	EventBus Observer pattern'ının bir çeşidi olarak çalışmaktadır. 2 tip observer vardır;collector ve sensor. Collector'ler event'lerin consumer'ları, sensorler de event üreticileridir.
+	
+	
+- MonitoringService.CmdService
+	Python kodu çalıştırmak için kullanılan yardımcı sınıftır.
+	Herhangi bir command'ın çalıştırılması için genel bir yapısı vardır.
+
+- MonitoringService.Elaborator
+	Veri toplama ve işleme sınıfıdır. Veri event'e donüştürülüp eventBus'a verilir.
+	Pipe and Filter yapısıyla çalışır. Kaynak,kaynak tipine bağlı olarak stream olarak alınır. ilk olarak metadata'sı çıkarılır. Bu aşamada veri için tanımlama bilgileri çıkarılır. Daha sonrasında extractor fonksiyonu ile Stream'den chunklar çıkarılır. Chunk çıkarma işlemi büyük veri içinde en küçük veri birimi çıkarılır ve chunk olarak döndürülür. Yield olarak döndürülür. Böylece tüm liste çıkarılmadan chunk'lar tek tek çıkarılır. Her çıkarılan chunk işlenmek üzere pipe'a verilir. Sırasıyla tüm filter'lara sokulur. Filter sırası config dosyasındaki sıradır.
+
+- MonitoringService.Extractor
+	extract etme işlemlerinden sorumlu abstract yapı - extractor sınıflar stream'den metadata'ya uygun olarak verilerin birim chunklar olarak çıkarmasını sağlar. 
+	2 tür extractor vardır: Birisi Dosyadan veri çıkarmak için:FileExtractor, Diğeri zaman bazlı çalıştırma ile internetten çekilen veriler eğer db'de olmayan bir cve ise işlenip kayıt edilir. yani elaborator sürecine dahil edilmek üzere chunk'a dönüştürülür: SensorExtractor
+
+- MonitoringService.Filter
+	Elaborator içinde, pipe and filter yapısına uygun, extract edilen chunk'ların işlenmesi için kullanılan sınıflardır.
+	Genel olarak Parser, Searcher, Recorder, Outputter gibi türleri vardır. 
+
+- MonitoringService.Logging
+	Servis olarak çalıştırılırken içerideki işlemleri bir dosyaya yazmak için, loglama yardımcı sınıfı
+	
+- MonitoringService.PyBasedSensor
+	Python kodlarını çalıştıran ve sensor olarak çalışıp event üreten sınıf.
+	Çalıştırılacak python dosyası, o dosyanın yüklenmesi için gerekli virtual environment dosyası ve ilgili dosyanın çalışması için cmd kodunu içerir.
+
+- MonitoringService.ReadConfig
+	Config xml dosyasının okunması ve initiliaze edilmesi için gerekli fonksiyonları içermektedir.
+	xml için yeni bir sınıf tanımı yapıldığında bu sınıfa da o tür sınıfın okunması için fonksiyon eklenmelidir.
+
+- MonitoringService.ServiceProgram
+	Uygulamanın servise dönüştürülmesi için kullanılır.
+	En son deploy edilirken aktif hale getirilecektir.
+
+- MonitoringService.VulnerabilityDataModel
+	Attribute veri modeli gibi, veritabanına kayıt yapılması için kullanılan yardımcı sınıftır. struct zelliği taşır
+
+- MonitoringService.XmlHelper
+	XML ve JSON gibi dosyaların okunması ve yazılması için yardımcı sınıftır
+	
+
+	2. ServerRepo (Veri Ambarı)
+- ServerRepo.app
+	Nodejs express sunucusunun ana dosyasıdır. Bu dosya üstünden sunucu başlatılır ve eğer farklı bir değer girilmemişse 5000 portu dinlenmektedir.
+	conn_str ile bağlanacak mongo veritabanı için connection string atanır. (Eksik)Bu değer config dosyasından çekilmelidir.
+	(Eksik)404,500 gibi hatalar için değerler girilmelidir.
+	(Eksik)API key kontrolü sağlanmalıdır.
+		
+- ServerRepo.etkileşim.web
+	Veri ambarına gelen isteklerin karşılandığı sınıftır.
+	GET, POST, DELETE, PUT http isteklerini almak için görevlidir.
+	İstekler için sabit bir yapı vardır: <field>/<model>/<type>
+	Field alanı ile istenilen verinin hangi alan altında aranacağı söylenir
+	model alanı ile hangi verimodeli ile işlem yapılacağı söylenmektedir.
+	type ise yapılacak işlemin türünü belirtir. 3 tip işlem vardır model, function ve config. Model işlemi ilgili modelin veri manipülasyonları için kullanılır. function ilgili model için fonksiyon ekleme, çıkarma ya da değiştirme ya da çalıştırma işlemleri için kullanılmaktadır. config ise ilgili model için config.xml'e yazım işlemleri için kullanılmaktadır.
+	Şu aşamada sadece veri manipülasyonu için kullanılan type=m çalışmaktadır.
+	
+	
+- ServerRepo.etkileşim.crudl
+	Web isteğinde alınan field, model ve type bilgilerini kullanarak; create, read, update, delete ve list fonksiyonlarını içeren kontrol sınıfıdır.
+	Field ve model bilgileri ile veri modeli dataService'den istenir. Daha sonrasında yapılacak işlem tipi (type) ve crudl fonksiyonlarına bağlı olarak veri işlemi gerçekleştirilir.
+	(Eksik) type=f her crudl fonksiyonaları içn tanımlanmalı ve yazılmalıdır.
+	(Eksik) type= c herhangi bir model için crudl config işlemleri tanımlanmalı ve yazılmalıdır.
+	
+- ServerRepo.DataService.AbsRepos
+	Field ve modelin bulunmasından sorumlu yapıdır.
+	Modellerin function alanı ile şöyle bir çalışma yapılabilir: yeni bir function modeli oluşturulur. hangi modele hangi function eklenecekse bu modele kayıt edilir. input ve output tipleri kayıt edilir. fonksiyon çağrılacağı zaman fonksiyon ..funx dosyasına yazılır. bu dosya require edilir. ilgili fonksiyon gerekli inputlarla çalıştırılır. çalıştırılan fonksiyonda callback fonksiyonu ile (başarılı ise 1, başarısız 0 ve sonuç değerleri input olan) output çağrılma yerinde işlenir.
+
+- ServerRepo.DataService.datamodel
+	Main field'ının veri modelleri için yapılan tanımları içermektedir.
+	Tüm modelleri bu dosyaya yazmalı, export etmeli ve getModel fonksiyonuna eklenmeldiri.
+
+- ServerRepo.DataService.manmodel
+	ynetici paneli veri modelleridir.
+	
+
+	3. Web Server
+- WebServer.app
+	main sınıf 3001 dinler
+	Web arayüzü için sunucu modülüdür. Arayüzden gelen istekler için repository'den aldığı verileri işler ve kullanıcıya göstermek için arayüze gnderir
+
+- WebServer.routes.webapi
+	Her hikaye için bir servis tanımlanır
+	istekler axios ile yapılır
+	(Eksik)Servislerin kullanılması için authentication ve authoritazion çalışması yapılmalıdır
+	
+
+
+	4. frontend (Arayüz)
+1- index.js ilk başlatılan dosyadır.
+
+2- src/asset içerisinde scss dosyları vardır. css.map in sources eklenen dosya adı ile file: base.css dosyası oluşturulur. tüm kapsamda bu dosya kullanılır. herhangi bir sayfa için özel eklenecek cssler olabilir.
+
+3- class isimleri classnames objesi ile atanır. böylece o classın olması(true) ya da olmaması mapStateToProps ile ayarlanır. Böylece ThemeOptions değerleri ile class'lar ayarlanabilmektedir.
+
+4- İndex ile App, App ile de MainLayout başlatılır. MainLayout'da route değerler vardır. MainLayout açıldığında(route exact path=/) path'de olan route değerleri ile ilgili component'lar açılır. Web app'de olan tüm sayfalar buraya eklenmelidir.
+
+5- Her sayfa ayrı ayrı düzenlenir. Sayfalar partial'lardan oluşur. Her partialComponent o sayfada olacakları belirlemek için kullanılır. Sayfada kullanılan partialComponent'larda eğer classname farklı kullanılırsa bu da mapStateToProps ile alınır ve classnames ile ayarlanır.
+
+6- Düzenlenecek component: 
+	- Html kod yapıştırılır.
+	- className değişimleri belirlenir. değişimde olanlar ve olmayanlar ona göre yazılır.
+	- reacstrap öğeleri, html kodlardaki değerler ile değiştirilir.
+	- dinamik değişimler için state ve propslar belirlenir.
+	- değişen verilerin yerleri tespit edilir.
+	- props ve state objeleri yerlerine yerleştirilir.
+	- eğer varsa toast ayarlanır:
+		* Toast açan button yerleştirilir
+		* UncontrolledTooltip yerleştirilir
+		* Toast fonksiyonu yaz.
+
+ARAYÜZ Geliştirme Yapım Tarifi
+
+1- Sayfa sayısı belirlenir
+
+2- Arayüzler kuşbakışı pozisyon kağıda çizilir
+
+3- Ortak kullanılan alanlar partialComponent olur.Bunlar ortaya çıkarılır
+
+4- Dinamik veriler belirlenir.
+
+5- Partial viewler klavuzun 6. maddesine istinaden düzenlenir.
+
+6- Dinamik veriler state ve props dönüştürülür. 
+
+7- public/index.html'den link.icon metadata bilgileri girilir.
+
+8- public/manifest.json ile ayar bilgileri girilir: background_color,theme_color,display,start_url,icons,name,short_name
+
+

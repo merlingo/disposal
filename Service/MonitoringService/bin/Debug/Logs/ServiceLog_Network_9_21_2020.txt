@@ -1,0 +1,37 @@
+Task on thread 6 running.
+running state 0dan büyük olduğu için başladı
+Task on thread 6 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(27000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+Task on thread 6 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(27000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\network_event" -o "Network" -l 25
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\network_event" -o "Network" -l 25
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\network_event" -o "Network" -l 25
+D:\\git\\ANM_DET_PRO\\Monitoring\\network_event
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Network değerleri için veri dosyası oluşturuldu
+DoEvent: file doesnt exist:D:\\git\\ANM_DET_PRO\\Monitoring\\network_event
+continue (sending data) sensor - Network

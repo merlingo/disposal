@@ -1,0 +1,23 @@
+{
+  "name": "data-service",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "DataService-Monitoring",
+  "author": {
+    "name": "Mert NAR"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0",
+    "xml-js": "^1.6.11"
+  }
+}

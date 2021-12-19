@@ -1,0 +1,26 @@
+Config dosyası:D:\Projeler\MonitoringService\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\MonitoringService\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - Proses
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - Network
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - Binary
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - Kaynak
+Service is beginning at 9/19/2020 1:55:58 PM
+EventBus starts: tasks will start. - 4
+EventBus starts: tasks will trigger. - Proses
+EventBus starts: tasks end trigger. - Proses
+EventBus starts: tasks will trigger. - Network
+Task on thread 6 running.
+running state 0dan büyük olduğu için başladı

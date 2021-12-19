@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Machine>
+  <Host>MertHome</Host>
+  <IP>192.168.1.36</IP>
+  <Agents>
+    <Agent>
+      <Port>5000</Port>
+      <IP>localhost</IP>
+      <UpdateCheckTime>450000</UpdateCheckTime>
+      <ResetTime>4850000</ResetTime>
+    </Agent>
+  </Agents>
+
+
+  <Elaborators>
+    <Elaborator>
+      <Filename>https://cve.circl.lu/api/browse</Filename>
+      <DataType>Network</DataType>
+      <Extractor>
+        <ExtType>
+          Sensor
+        </ExtType>
+        <APIUrl>https://cve.circl.lu/api</APIUrl>
+        <APIFunc>browse</APIFunc>
+        <APIKey></APIKey>
+        <RunType>TekSefer</RunType>
+        <TimeSpan>0</TimeSpan>
+        <DataModel>products</DataModel>
+        <UnderField>vendor</UnderField>
+      </Extractor>
+
+      <Filters>
+
+        <Filter>
+          <DataType>ProductParser</DataType>
+          <FileType>JSON</FileType>
+          <ObjectName>cve.cirl.lu</ObjectName>
+          <Direction>VendorToProduct</Direction>
+          <GetDetailURL>https://cve.circl.lu/api/browse/</GetDetailURL>
+        </Filter>
+
+      </Filters>
+    </Elaborator>
+    <Elaborator>
+      <Filename>D:\Projeler\vulnerabilityMapping\allitems-cvrf-year-2020.xml</Filename>
+      <DataType>File</DataType>
+      <Extractor>
+        <ExtType>
+          Data
+        </ExtType>
+        <StartMark>&#60;Vulnerability</StartMark>
+        <EndMark>&#60;&#47;Vulnerability&#62;</EndMark>
+      </Extractor>
+      <Detector>
+        <FileType>XML</FileType>
+        <ObjectName>mitre-allitems</ObjectName>
+        <FieldAttr>NO</FieldAttr>
+        <RootNode>Vulnerability</RootNode>
+      </Detector>
+      <Filters>
+
+        <Filter>
+          <DataType>FileParser</DataType>
+          <FileType>XML</FileType>
+          <ObjectName>mitre-allitems</ObjectName>
+        </Filter>
+        <Filter>
+          <DataType>Matcher</DataType>
+          <URL>https://cve.circl.lu/api/cve</URL>
+          <ObjectName>cve.cirl.lu</ObjectName>
+        </Filter>
+        <Filter>
+          <DataType>Tagger</DataType>
+          <ObjectName>Statik</ObjectName>
+        </Filter>
+      </Filters>
+    </Elaborator>
+  </Elaborators>
+</Machine>

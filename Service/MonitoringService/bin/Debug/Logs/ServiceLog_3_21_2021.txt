@@ -1,0 +1,53 @@
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 3/21/2021 2:02:05 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 3/21/2021 7:09:45 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 3/21/2021 7:12:51 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 3/21/2021 7:21:40 PM
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (400) Bad Request.
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 3/21/2021 8:09:38 PM
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (400) Bad Request.
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 3/21/2021 8:20:04 PM
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (400) Bad Request.
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+Service is beginning at 3/21/2021 8:32:17 PM
+HATA: Agent.update - Veri gönderilirken hata oluştu: cve.cirl.lu     msg:The remote server returned an error: (400) Bad Request.

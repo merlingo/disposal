@@ -1,0 +1,8 @@
+Task on thread 5 running.
+running state 0dan büyük olduğu için başladı
+Task on thread 5 running.
+running state 0dan büyük olduğu için başladı
+Task on thread 5 running.
+running state 0dan büyük olduğu için başladı
+Task on thread 5 running.
+running state 0dan büyük olduğu için başladı

@@ -1,0 +1,8 @@
+Task on thread 8 running.
+running state 0dan büyük olduğu için başladı
+Task on thread 7 running.
+running state 0dan büyük olduğu için başladı
+Task on thread 7 running.
+running state 0dan büyük olduğu için başladı
+Task on thread 9 running.
+running state 0dan büyük olduğu için başladı

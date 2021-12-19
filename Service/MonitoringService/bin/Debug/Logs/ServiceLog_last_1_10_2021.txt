@@ -1,0 +1,159 @@
+PyBasedSensor.Sensorstop: Sensor çalışmamaktadır
+Task on thread 3 running.
+running state 0dan büyük olduğu için başladı
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1637]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+PYBasedSensor.Collect: commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\deactivate 
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+sensor collect time bitti.(2000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+PYBasedSensor.Collect: commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\deactivate 
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+collect data in task. collect fonksiyonu çalıştı.last değerleri için veri dosyası oluşturuldu
+Task on thread 4 running.
+running state 0dan büyük olduğu için başladı
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1637]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+PYBasedSensor.Collect: commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\deactivate 
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+sensor collect time bitti.(2000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1637]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+PYBasedSensor.Collect: commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\deactivate 
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+collect data in task. collect fonksiyonu çalıştı.last değerleri için veri dosyası oluşturuldu
+DoEvent: file doesnt exist:D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1637]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+PYBasedSensor.Collect: commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\deactivate 
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+DoEvent: file doesnt exist:D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json
+continue (sending data) sensor - last
+DoEvent: file doesnt exist:D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1637]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+PYBasedSensor.Collect: commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\deactivate 
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+DoEvent: file doesnt exist:D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1637]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\activate 
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+PYBasedSensor.Collect: commandline: py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>py D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\matching.py -r "D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json" -o "last" -l 5
+
+(test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_matching) D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>D:\\Projeler\\vulnerabilityMapping\\\test_venv_matching\Scripts\deactivate 
+D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug>echo end
+
+DoEvent: file doesnt exist:D:\\Projeler\\vulnerabilityMapping\\PythoningMonitoring\\last.json

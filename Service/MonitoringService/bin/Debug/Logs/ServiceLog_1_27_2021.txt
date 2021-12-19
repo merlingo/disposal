@@ -1,0 +1,192 @@
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 11:38:31 AM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 11:45:45 AM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 11:46:11 AM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:21:44 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:22:54 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:23:53 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:24:09 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:24:47 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:25:28 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:26:41 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 6:30:21 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 7:18:02 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 7:19:11 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 11:51:35 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 11:53:02 PM
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+agent register - 
+sensor configden okunuyor: 
+sensor tamam:MonitoringService.PyBasedSensor
+PYBASEDSENSOR: Sensor önceden yüklenmiştir
+register sensor - last
+Config dosyası:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+Okuma tamam:D:\Projeler\vulnerabilityMapping\Service\MonitoringService\bin\Debug\config.xml
+elaborator configden okunuyor: 
+elaborator configden okunuyor: 
+Service is beginning at 1/27/2021 11:59:13 PM

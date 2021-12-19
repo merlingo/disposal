@@ -1,0 +1,1 @@
+{"rawData":"mert nar","date":"2020-12-27T08:11:26.9808915+03:00","src_ip":"8.8.8.8","type":"deneme","src":"dut"}

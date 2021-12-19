@@ -1,0 +1,279 @@
+Task on thread 10 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(5000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+Task on thread 7 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(5000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+Task on thread 9 running.
+running state 0dan büyük olduğu için başladı
+sensor collect time bitti.(5000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+    Total: 17,134,620,672 b
+    usage: 44%
+    Cache: 44 p
+    Cache: 44 b
+    Disks: C, D, E
+    C:\
+        Name: 
+        Type: NTFS
+        Total: 429,107,703,808
+        Used:  350,264,836,096
+        Free:  78,842,867,712
+    Disks: C, D, E
+    D:\
+        Name: Yeni Birim
+        Type: NTFS
+        Total: 511,920,041,984
+        Used:  371,257,872,384
+        Free:  140,662,169,600
+    Disks: C, D, E
+    E:\
+        Name: 
+        Type: NTFS
+        Total: 59,174,285,312
+        Used:  21,630,570,496
+        Free:  37,543,714,816
+    CPU Usage: 7.24 %
+    Pagefile Usage: 6.67 %, Mem Avail: 9024 MB
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Kaynak değerleri için veri dosyası oluşturuldu
+continue (sending data) sensor in task - Kaynak
+sensor collect time bitti.(5000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+    Total: 17,134,620,672 b
+    usage: 45%
+    Cache: 45 p
+    Cache: 45 b
+    Disks: C, D, E
+    C:\
+        Name: 
+        Type: NTFS
+        Total: 429,107,703,808
+        Used:  350,265,176,064
+        Free:  78,842,527,744
+    Disks: C, D, E
+    D:\
+        Name: Yeni Birim
+        Type: NTFS
+        Total: 511,920,041,984
+        Used:  371,257,880,576
+        Free:  140,662,161,408
+    Disks: C, D, E
+    E:\
+        Name: 
+        Type: NTFS
+        Total: 59,174,285,312
+        Used:  21,630,570,496
+        Free:  37,543,714,816
+    CPU Usage: 7.15 %
+    Pagefile Usage: 6.67 %, Mem Avail: 8932 MB
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Kaynak değerleri için veri dosyası oluşturuldu
+continue (sending data) sensor in task - Kaynak
+sensor collect time bitti.(5000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+    Total: 17,134,620,672 b
+    usage: 45%
+    Cache: 45 p
+    Cache: 45 b
+    Disks: C, D, E
+    C:\
+        Name: 
+        Type: NTFS
+        Total: 429,107,703,808
+        Used:  350,265,724,928
+        Free:  78,841,978,880
+    Disks: C, D, E
+    D:\
+        Name: Yeni Birim
+        Type: NTFS
+        Total: 511,920,041,984
+        Used:  371,258,032,128
+        Free:  140,662,009,856
+    Disks: C, D, E
+    E:\
+        Name: 
+        Type: NTFS
+        Total: 59,174,285,312
+        Used:  21,630,570,496
+        Free:  37,543,714,816
+    CPU Usage: 11.28 %
+    Pagefile Usage: 6.66 %, Mem Avail: 8946 MB
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Kaynak değerleri için veri dosyası oluşturuldu
+continue (sending data) sensor in task - Kaynak
+sensor collect time bitti.(5000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+    Total: 17,134,620,672 b
+    usage: 45%
+    Cache: 45 p
+    Cache: 45 b
+    Disks: C, D, E
+    C:\
+        Name: 
+        Type: NTFS
+        Total: 429,107,703,808
+        Used:  350,266,200,064
+        Free:  78,841,503,744
+    Disks: C, D, E
+    D:\
+        Name: Yeni Birim
+        Type: NTFS
+        Total: 511,920,041,984
+        Used:  371,258,036,224
+        Free:  140,662,005,760
+    Disks: C, D, E
+    E:\
+        Name: 
+        Type: NTFS
+        Total: 59,174,285,312
+        Used:  21,630,570,496
+        Free:  37,543,714,816
+    CPU Usage: 5.31 %
+    Pagefile Usage: 6.66 %, Mem Avail: 8924 MB
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Kaynak değerleri için veri dosyası oluşturuldu
+continue (sending data) sensor in task - Kaynak
+sensor collect time bitti.(5000). şimdi collect fonksiyonu çalışıyor
+PYBasedSensor.Collect: sensor venv yüklemesi için sensorStart() çalıştırılıyor
+PYBasedSensor.sensorStart: durum pasif. sensor start çalışacak
+PYBasedSensor.Collect: commandline: D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+PYBASEDSENSOR. cmd service başlatıldı 
+PYBASEDSENSOR.SensorStart: Microsoft Windows [Version 10.0.17763.1457]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\activate 
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBasedSensor.Collect:
+commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+PYBasedSensor.Collect: commandline: py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+(test_venv_trexMonitoring) C:\Windows\system32>py D:\\git\\ANM_DET_PRO\\Monitoring\trexMonitoring.py -r "D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event" -o "Kaynak"
+D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+    Total: 17,134,620,672 b
+    usage: 45%
+    Cache: 45 p
+    Cache: 45 b
+    Disks: C, D, E
+    C:\
+        Name: 
+        Type: NTFS
+        Total: 429,107,703,808
+        Used:  350,263,574,528
+        Free:  78,844,129,280
+    Disks: C, D, E
+    D:\
+        Name: Yeni Birim
+        Type: NTFS
+        Total: 511,920,041,984
+        Used:  371,258,167,296
+        Free:  140,661,874,688
+    Disks: C, D, E
+    E:\
+        Name: 
+        Type: NTFS
+        Total: 59,174,285,312
+        Used:  21,630,570,496
+        Free:  37,543,714,816
+    CPU Usage: 0.00 %
+    Pagefile Usage: 6.66 %, Mem Avail: 8931 MB
+in write file D:\\git\\ANM_DET_PRO\\Monitoring\\kaynak_event
+
+(test_venv_trexMonitoring) C:\Windows\system32>echo end
+
+PYBASEDSENSOR.SensorStopped: (test_venv_trexMonitoring) C:\Windows\system32>D:\\git\\ANM_DET_PRO\\\test_venv_trexMonitoring\Scripts\deactivate 
+C:\Windows\system32>echo end
+
+collect data in task. collect fonksiyonu çalıştı.Kaynak değerleri için veri dosyası oluşturuldu

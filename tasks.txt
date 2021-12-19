@@ -1,0 +1,63 @@
+Tasks
+- iskeleti oluştur +
+- kod temizliği ve sadeleştirmeleri yap +
+- Modülleri ayrıntılı açıkla +
+- geliştirme algoritması çıkar 
+	
+- geliştirme modüllerini belirle +
+	*Zaafiyet product eşleştirme (MonitoringService)
+	*taglerin çıkarılması (MonitoringService)
+	*Suggestion için tag,zaafiyet ve product modellerine sorgular (frontend-WebServer)
+	*Seçilen öğeler ile arama yapma (frontend-WebServer)
+	*Aramanın zaafiyete bağlanması (frontend-WebServer)
+	*Aramanın ürünlere bağlanması (frontend-WebServer)
+	*Aramanın taglere bağlanması (frontend-WebServer)
+	*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GETS:
+	- Zaafiyetler
+	Zaafiyetler ve attributelar eşleştirilerek çağrılacak
+	
+	- id ile zaafiyet
+	- ürünler
+	- tüm taglar
+	- Seçilen ürün için zaafiyet
+	- seçilen zaafiyet için taglar
+	- 

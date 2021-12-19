@@ -1,0 +1,2 @@
+Task on thread 6 running.
+running state 0dan büyük olduğu için başladı

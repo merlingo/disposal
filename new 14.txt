@@ -1,0 +1,50 @@
+﻿Zaafiyet eşleştirme uygulaması:
+Amaç: kullanıcının ihtiyaçları doğrultusunda sadece kendisi ile ilgili zaafiyetlerin gösterilmesi
+
+Use Case: Kullanıcıdan sistem ve uygulama(lar) versiyon bilgileri alınır.
+Uygulamalar ile ilgili varolan ya da yeni çıkan zaafiyetler gösterilir
+Uygulama için yayınlanan son sürüm bildirilir
+
+
+
+Gereksinimler:
+- Uygulama ya da os ekleme
+	- Uygulama adı
+	- Versiyon bilgisi
+- Zaafiyet veritabanlarının taranması
+- Uygulama için varolan zaafiyetin tarama verilerinde aranması
+- Uygulama sitesi crawl edilerek son sürüm bilgisinin edinilmesi
+
+- zaafiyet tagları için veri modeli
+
+
+DATABASE
+Veriler:
+-cve bilgileri(cve2020.11851), uygulama bilgileri (örn: vendor:microsoft;product:Office), zaafiyet tagları (ÖRN: xss,rce), zaafiyet açıklamaları(description), referanslar, uygulamaların versiyon bilgileri (latest)
+-cve solution
+
+VERSIYON 2:
+- exploiti var mı? https://github.com/asrocha/exploitdb-API
+- exploit edilebilir mi? 
+-  port-scan
+- Latest version: ürünlerin son güncellemelerini hemen haber verme
+- önceki versiyonlar için zaafiyet bilgileri (kritik)
+
+EN ÖNEMLİ UNSUR:
+- DB zenginliği
+- DB doğruluğu
+- uygulama bilgisi ve zaafiyet tagları (MUST)
+
+
+NOT: allitems.xml verisinden description içinden zaafiyet ve vendor product değerlerini almalıyız. 
+
+
+YENI Ozellik
+Nmap üstünden ilgili sunucu için dışarıdan zaafiyet tarama:
+https://securitytrails.com/blog/nmap-vulnerability-scan
+
+Cve Tüm zaafiyetler çekilecek
+Birden fazla zaafiyet apisi – güncel taze zaafiyet yakalayıcı
+
+https://github.com/asrocha/exploitdb-API
+
