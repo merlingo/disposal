@@ -13,7 +13,7 @@ var router = express.Router();
 // create new alarm rule, run rule, list alarm by date, change status of alarm, get one alarm details, delete rule, delete alarm
 function generalSendRequestPattern(path, res_func) {
     const options = {
-        host: 'localhost',
+        host: '3.83.151.152',
         port: 5000,
         path: path,
         method: 'GET',
@@ -40,9 +40,9 @@ function produceSuggestions(sugg,callback) {
     var tag_filter = "rel=or&" + "name="+sugg;
 
 
-    let one = "http://localhost:5000/main/vulnerability/m?" + vul_filter
-    let two = "http://localhost:5000/main/product/m?" + product_filter
-    let three = "http://localhost:5000/main/tag/m?" + tag_filter
+    let one = "http://3.83.151.152:5000/main/vulnerability/m?" + vul_filter
+    let two = "http://3.83.151.152:5000/main/product/m?" + product_filter
+    let three = "http://3.83.151.152:5000/main/tag/m?" + tag_filter
 
     const requestOne = axios.get(one);
     const requestTwo = axios.get(two);
@@ -74,9 +74,9 @@ function findVulnerabilities(keyword, callback) {
     var vul_filter = "rel=or&" + "cve=" + keyword + "&desc=" + keyword;//cve ya da description'da ara
 
 
-    let one = "http://localhost:5000/main/vulnerability/m?" + vul_filter
-    let two = 'http://localhost:5000/main/match/f?fname=vulnerabilityFromProduct&inputs=["' + keyword + '"]';
-    let three = 'http://localhost:5000/main/tag/f?fname=vulnerabilityFromTag&inputs=["' + keyword + '"]'
+    let one = "http://3.83.151.152:5000/main/vulnerability/m?" + vul_filter
+    let two = 'http://3.83.151.152:5000/main/match/f?fname=vulnerabilityFromProduct&inputs=["' + keyword + '"]';
+    let three = 'http://3.83.151.152:5000/main/tag/f?fname=vulnerabilityFromTag&inputs=["' + keyword + '"]'
 
     const requestOne = axios.get(one);
     const requestTwo = axios.get(two);
@@ -146,11 +146,15 @@ router.post('/sensor/',auth, function (req, res) { //post data example
 });
 
 const getUser = async function(umail) {
-    const res = await axios('http://localhost:5000/main/user/m?view=last&mail='+umail);
+    const res = await axios('http://3.83.151.152:5000/main/user/m?view=last&mail='+umail);
     console.log(res);
     return await res.data;
   }
 
+router.post('/verify',auth, function (req, res) { //verify token by using auth middleware, if it is ok then res is ok
+    res.status(200);
+    res.send("OK");
+});
 router.post('/login/', async function (req, res) { //post data example
     
     console.log(req.body);
@@ -214,7 +218,7 @@ router.get('/vulnerability/',auth, function (req, res) { //get vulnerability lis
     
     var cred = JSON.stringify(req.body);
     console.log(req.body);
-    let vul_string = "http://localhost:5000/main/vulnerability/m?";
+    let vul_string = "http://3.83.151.152:5000/main/vulnerability/m?";
 
     axios.get(vul_string).then((repores)=>{
         console.log("vulnerebility results:");
@@ -231,7 +235,24 @@ router.get('/vulnerability/',auth, function (req, res) { //get vulnerability lis
 router.get('/product/',auth, function (req, res) { //get vulnerability list attached with their tags
     
     console.log(req.body);
-    let vul_string = "http://localhost:5000/main/product/m?";
+    let vul_string = "http://3.83.151.152:5000/main/product/m?";
+
+    axios.get(vul_string).then((repores)=>{
+        console.log("product results:");
+        console.log(repores.data);
+        var data = repores.data;
+        res.json(data);
+
+    }).catch(errors => {
+        // react on errors.
+        console.log(errors);
+        res.json(errors);
+    });
+});
+router.get('/product/:clid',auth, function (req, res) { //get vulnerability list attached with their tags
+    
+    console.log(req.body);
+    let vul_string = "http://3.83.151.152:5000/main/cproduct/m?clid="+req.params.clid;
 
     axios.get(vul_string).then((repores)=>{
         console.log("product results:");
@@ -251,7 +272,7 @@ router.post('/product/:clid',auth, function (req, res) { //get vulnerability lis
     console.log(req.params.clid);
 
     const client_product = {name:req.body.name, clid:req.params.clid};
-    let vul_string = "http://localhost:5000/main/cproduct/m?";
+    let vul_string = "http://3.83.151.152:5000/main/cproduct/m?";
 
     axios.post(vul_string, client_product ).then((repores)=>{
         console.log("products of client results:");
@@ -271,7 +292,7 @@ router.delete('/product/:clid',auth, function (req, res) { //get vulnerability l
     console.log(req.params.clid);
 
     const client_product = {name:req.body.name, clid:req.params.clid};
-    let vul_string = "http://localhost:5000/main/cproduct/m?";
+    let vul_string = "http://3.83.151.152:5000/main/cproduct/m?";
 
     axios.delete(vul_string, client_product ).then((repores)=>{
         console.log("products of client results:");
@@ -291,7 +312,7 @@ router.get('/product/vuls',auth, function (req, res) { //get vulnerability list 
     var p = req.query.p;
     console.log(req.query);
 
-    let vul_string = 'http://localhost:5000/main/match/f?fname=vulnerabilityFromProduct&inputs=["' + p + '"]';;
+    let vul_string = 'http://3.83.151.152:5000/main/match/f?fname=vulnerabilityFromProduct&inputs=["' + p + '"]';;
 
     axios.get(vul_string).then((repores)=>{
         console.log("vulnerabiilties of product results:");
@@ -307,8 +328,10 @@ router.get('/product/vuls',auth, function (req, res) { //get vulnerability list 
 });
 router.get('/alarm/',auth, function (req, res) { //get vulnerability list attached with their tags
     
-    console.log(req.body);
-    let vul_string = "http://localhost:5000/main/notification/m?";
+    var clid = req.user.clid;
+    console.log("clid:"+clid);
+
+    let vul_string = "http://3.83.151.152:5000/main/notification/m?clid="+clid;
 
     axios.get(vul_string).then((repores)=>{
         console.log("alarms results:");
@@ -325,7 +348,9 @@ router.get('/alarm/',auth, function (req, res) { //get vulnerability list attach
 router.get('/alarm/options',auth, function (req, res) { //get vulnerability list attached with their tags
     
     console.log(req.body);
-    let vul_string = "http://localhost:5000/main/option/m?";
+    var clid = req.user.clid;
+
+    let vul_string = "http://3.83.151.152:5000/main/option/m?clid="+clid;
 
     axios.get(vul_string).then((repores)=>{
         console.log("option results:");
@@ -345,7 +370,7 @@ router.post('/alarm/options/:clid',auth, function (req, res) { //get vulnerabili
     console.log(req.params.clid);
 
     const option = {...req.body, clid:req.params.clid};
-    let req_string = "http://localhost:5000/main/option/m?";
+    let req_string = "http://3.83.151.152:5000/main/option/m?";
 
     axios.post(req_string, option ).then((repores)=>{
         console.log("options of client results:");

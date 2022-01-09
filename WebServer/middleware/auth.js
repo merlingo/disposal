@@ -13,6 +13,7 @@ const verifyToken = (req, res, next) => {
     console.log(config.TOKEN_KEY);
     const decoded = jwt.verify(token, "33743677397A244226452948404D6351");
     req.user = decoded;
+    console.log( "from aut middleware req.user : "+req.user);
   } catch (err) {
     return res.status(401).send("Invalid Token");
   }
